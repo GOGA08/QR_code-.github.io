@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  background-color: hsl(212, 45%, 89%);
+}
+
+/* Main div, I used Flexbox to center  */
+.container {
+  width: 320px;
+  height: 498px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.04);
+  padding: 18px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.img-qr-code {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.big-text {
+  font-size: 22px;
+  line-height: 27.72px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  color: hsl(218, 44%, 22%);
+}
+
+.small-text {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 18px 40px 18px;
+  line-height: 18.9px;
+  color: hsl(220, 15%, 55%);
+}
